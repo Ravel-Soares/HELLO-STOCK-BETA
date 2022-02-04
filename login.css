@@ -1,0 +1,44 @@
+main{
+    max-width: 40%;
+    max-height: 65%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #3e395247;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo{
+    font-size: 20px;
+    color: #824fcdf7;
+}
+
+.entradas{
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.entrar{
+margin: 5px 0;
+background-color: tomato;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px;
+align-items: center;
+cursor: pointer;
+}
+.entrar:hover{
+    background-color: #e9674f;
+}
+
+
+main a{
+    text-decoration: none;
+    color: #430b998c;
+    margin: 10px 0 ;
+}

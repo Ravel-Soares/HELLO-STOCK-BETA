@@ -1,0 +1,103 @@
+header{
+    width: 80%;
+    height: 500px;
+    background:  white;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0 0 1em #3e395247;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu h1{
+    margin-right: 54%;
+    color: #824fcdf7;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.links-a{
+    color: #430b998c;
+    margin: 10px 8px;
+    text-decoration: none;
+}
+.menu button{
+    margin: 0%  5px;
+    padding: 10px 15px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: #e9674f;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+}
+
+.esquerda{
+    width: 50%;
+    height: 400px;
+    margin: 60px 30px;
+}
+.esquerda h1{
+    font-size: 40px;
+    color: #824fcdf7;
+    font-weight: bold;
+}
+.esquerda button{
+  margin-top: 20px;
+  color: white;
+  background-color: tomato;
+  border-radius: 15px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.esquerda button:hover{
+    background-color: #e9674f;
+}
+.textos-esquerda{
+    max-width: 300px;
+}
+.direita{
+    width: 50%;
+    height: 400px;
+}
+.direita img{
+    max-height: 400px;
+    margin-left: 30px;
+}
+
+@media(max-width: 1200px){
+    .menu h1{
+        margin-right: 48%;
+    }
+}
+
+@media(max-width: 1042px){
+    .menu h1{
+        margin-right: 43%;
+    }
+}
+
+
+@media(max-width: 960px){
+    .menu h1{
+        margin-right: 35%;
+    }
+}
+
+
+@media(max-width: 500px){
+    .menu h1{
+        margin-right: 10%;
+    }
+}
