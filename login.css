@@ -9,17 +9,38 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .titulo{
     font-size: 20px;
     color: #824fcdf7;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-input{
+    color: rgb(185, 162, 243);
 }
 
 .entradas{
-    padding: 15px;
+    padding: 50px;
     border: none;
     outline: none;
+    
+    
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #e6e6f7;
+    outline: none;
+    border: none;
+    padding: 20px;
+    width: 100%;
 }
 
 .entrar{
@@ -41,4 +62,18 @@ main a{
     text-decoration: none;
     color: #430b998c;
     margin: 10px 0 ;
+}
+
+@media(max-width: 730px){
+    .botao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: #e6e6f7;
+        outline: none;
+        border: none;
+        padding: 20px;
+        
+    }
 }
